@@ -1,0 +1,21 @@
+
+.header {
+  color: olive;
+}
+
+.clwh {
+  color: white;
+}
+
+:root {
+  --dark-color: #e95105;
+}
+
+.presentation {
+  height: 1000px;
+  background-color: var(--dark-color);
+}
+
+.social-group {
+  list-style: none;
+}
