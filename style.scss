@@ -8,14 +8,22 @@
 }
 
 :root {
-  --dark-color: #e95105;
+  --dark-color: #F55800;
 }
 
 .presentation {
-  height: 1000px;
-  background-color: var(--dark-color);
+  height: 1000px;    
 }
 
 .social-group {
   list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#fig_1 {
+  background-image: url("./images/Fig_1.svg");
+  background-size: contain;
 }
