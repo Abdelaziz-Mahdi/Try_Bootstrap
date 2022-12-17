@@ -10,6 +10,10 @@
   --dark-color: #F55800;
 }
 
+.dark-color {
+  color: var(--dark-color);
+}
+
 .presentation {
   height: 1000px;
 }
@@ -25,6 +29,7 @@ ul {
 #fig_1 {
   background-image: url("./images/Fig_1.svg");
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=style.css.map */
