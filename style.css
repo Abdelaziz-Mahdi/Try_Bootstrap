@@ -7,17 +7,16 @@
 }
 
 :root {
-  --dark-color: #F55800;
+  --bs-orange: #F55800;
 }
 
-.dark-color {
-  color: var(--dark-color);
+.orange-color {
+  color: var(--bs-orange);
 }
 
-.presentation {
-  height: 1000px;
-}
-
+/*.presentation {
+  height: 1000px;    
+}*/
 .social-group {
   list-style: none;
 }
@@ -32,4 +31,6 @@ ul {
   background-repeat: no-repeat;
 }
 
-/*# sourceMappingURL=style.css.map */
+#heading {
+  min-height: calc(100vh - 72px);
+}/*# sourceMappingURL=style.css.map */
