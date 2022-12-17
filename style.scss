@@ -1,0 +1,33 @@
+.header {
+  color: olive;
+}
+
+.clwh {
+  color: white;
+}
+
+:root {
+  --bs-orange: #f55800;
+}
+
+.orange-color {
+  color: var(--bs-orange);
+}
+
+.social-group {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#fig_1 {
+  background-image: url("./images/Fig_1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#heading {
+  min-height: calc(100vh - 72px);
+}
